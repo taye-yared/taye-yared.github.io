@@ -1,0 +1,27 @@
+{
+  "name": "yared_website",
+  "version": "1.0.0",
+  "description": "website displaying Yared's credentials",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taye-yared/yared_website.git"
+  },
+  "author": "Yared Taye <yaredot@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taye-yared/yared_website/issues"
+  },
+  "homepage": "https://github.com/taye-yared/yared_website#readme",
+  "dependencies": {
+    "material-ui": "^0.16.6",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
