@@ -5,6 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import App from './components/App';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
 injectTapEventPlugin()
 
@@ -14,4 +15,11 @@ const ThemedApp = () => (
     </ MuiThemeProvider>
 )
 
-ReactDOM.render(<ThemedApp />, document.getElementById('app'))
+ReactDOM.render((
+    <Router history={browserHistory}>
+        <Route path="/" component={ThemedApp}>
+            
+        </Route>
+    </Router>
+    ), 
+    document.getElementById('app'))

@@ -18,19 +18,24 @@
   "homepage": "https://github.com/taye-yared/yared_website#readme",
   "dependencies": {
     "@types/material-ui": "^0.16.46",
+    "@types/node": "^6.0.55",
     "@types/react": "^0.14.55",
     "@types/react-dom": "^0.14.20",
+    "@types/react-router": "^2.0.41",
     "@types/react-tap-event-plugin": "0.0.30",
     "material-ui": "^0.16.6",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
     "react-tap-event-plugin": "^2.0.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.17",
+    "file-loader": "^0.9.0",
     "source-map-loader": "^0.1.5",
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.4",
+    "url-loader": "^0.5.7"
   }
 }
