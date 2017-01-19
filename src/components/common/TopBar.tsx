@@ -43,7 +43,7 @@ export default class TopBar extends Component<undefined, State>{
                 <AppBar 
                     title="Yared's Website" 
                     onLeftIconButtonTouchTap= {this.onToggleDrawer}
-                    style = {{color: blueGrey400, paddingLeft: (this.state.showDrawer)?drawerWidth:"20", position: "relative"}}
+                    style = {{color: blueGrey400, paddingLeft: (this.state.showDrawer)?drawerWidth:"20", position: "relative", borderRadius: "8px"}}
                     zDepth = {3}>
                     <div className="git-icon">
                         <a href="https://github.com/taye-yared">
